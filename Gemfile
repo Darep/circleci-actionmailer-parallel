@@ -228,9 +228,6 @@ gem 'rack-utf8_sanitizer', '1.4.0'
 # A list of languages based upon ISO-639-1 and ISO-639-3
 gem 'language_list', '1.2.1'
 
-# Get notifications about errors
-gem 'opbeat', git: 'https://github.com/Darep/opbeat_ruby', ref: '575b2d2'
-
 # Contains CLDR data
 gem 'twitter_cldr', '4.2.0'
 

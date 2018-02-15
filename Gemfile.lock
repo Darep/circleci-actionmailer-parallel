@@ -1,13 +1,4 @@
 GIT
-  remote: https://github.com/Darep/opbeat_ruby
-  revision: 575b2d26e89403cbd5521dfe1c82cae58e1c17e3
-  ref: 575b2d2
-  specs:
-    opbeat (2.0.0)
-      faraday (>= 0.7.6, < 0.10)
-      multi_json (~> 1.0)
-
-GIT
   remote: https://github.com/Sija/garb.git
   revision: 72ce3c61ea8ddee620cd3bfbceda92b7f8afdaef
   ref: 72ce3c61
@@ -867,7 +858,6 @@ DEPENDENCIES
   oauth (= 0.4.7)
   oauth2 (= 1.4.0)
   omniauth-google-oauth2 (= 0.5.3)
-  opbeat!
   opengraph_parser!
   plissken (= 0.2.0)
   poltergeist (= 1.17.0)
