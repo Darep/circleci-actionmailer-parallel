@@ -272,9 +272,6 @@ gem 'logstash-logger', '0.26.0'
 gem 'clarinet', '0.5.1'
 
 group :deploy, :default do
-  # full text search
-  gem 'thinking-sphinx', '3.4.2'
-
   # Rackspace API
   gem 'fog-rackspace', '~> 0.1.1'
 
