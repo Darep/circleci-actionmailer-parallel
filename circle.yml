@@ -1,0 +1,17 @@
+machine:
+  ruby:
+    version: 2.3.6
+  environment:
+    RUBYOPT: W0
+dependencies:
+  pre:
+    - rvm install rubygems 2.4.8 --force
+    - gem install bundler --version '1.16.1'
+    - bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3:
+        timeout: 900
+database:
+  override:
+    - RAILS_ENV="test" RACK_ENV="test" bundle exec rake db:create db:structure:load ts:configure ts:index ts:start --trace
+test:
+  minitest_globs:
+    - test/**/*_test.rb

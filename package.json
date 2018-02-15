@@ -1,0 +1,5 @@
+{
+  "name": "circleci-actionmailer-parallel",
+  "private": true,
+  "dependencies": {}
+}
