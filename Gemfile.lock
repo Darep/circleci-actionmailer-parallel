@@ -141,9 +141,6 @@ GEM
     axlsx_rails (0.5.1)
       actionpack (>= 3.1)
       axlsx (>= 2.0.1)
-    barber (0.11.2)
-      ember-source (>= 1.0, < 3)
-      execjs (>= 1.2, < 3)
     bcrypt (3.1.11)
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
@@ -236,10 +233,6 @@ GEM
       eventmachine (~> 1.0)
       http_parser.rb (~> 0.6)
       simple_oauth (~> 0.2)
-    ember-handlebars-template (0.7.5)
-      barber (>= 0.11.0)
-      sprockets (>= 3.3, < 4)
-    ember-source (1.12.2)
     encryptor (3.0.0)
     equalizer (0.0.11)
     erubis (2.7.0)
@@ -393,7 +386,6 @@ GEM
       sprockets (>= 2, < 4)
       sprockets-rails (>= 2, < 4)
       tilt
-    kss (0.5.0)
     language_list (1.2.1)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -811,7 +803,6 @@ DEPENDENCIES
   addressable (= 2.5.2)
   after_commit_exception_notification (= 0.2.0)
   amazon-ecs (= 2.5.0)
-  api_v1!
   attr_encrypted (= 3.0.3)
   auth0 (= 4.1.0)
   awrence (= 1.0.0)
@@ -831,7 +822,6 @@ DEPENDENCIES
   curb (= 0.9.4)
   database_cleaner (= 1.6.2)
   devise (= 3.5.10)
-  diy_forms!
   dogstatsd-ruby (~> 1.5.0)
   ejson (~> 1.1.0)
   elasticsearch (~> 2.0.2)
@@ -872,8 +862,6 @@ DEPENDENCIES
   minitest-rails (= 2.2.1)
   minitest-stub-const (= 0.6)
   mysql2 (= 0.3.20)
-  newsroom!
-  newsroom_lite!
   nokogiri (= 1.8.2)
   non-stupid-digest-assets (= 1.0.9)
   oauth (= 0.4.7)
@@ -943,7 +931,6 @@ DEPENDENCIES
   vcr (= 4.0.0)
   video_info (= 2.7.0)
   vimeo (~> 1.5.4)
-  webhooks!
   webmock (= 1.24.6)
   wuparty (= 1.2.7)
   yam (= 2.5.0)
