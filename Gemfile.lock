@@ -166,7 +166,6 @@ GEM
       addressable (~> 2.5)
       httparty (~> 0.14)
     cldr-plurals-runtime-rb (1.0.1)
-    cliver (0.3.2)
     coderay (1.1.2)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
@@ -175,7 +174,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    colorize (0.8.1)
     concurrent-ruby (1.0.4)
     connection_pool (2.2.1)
     cookiejar (0.3.2)
@@ -366,14 +364,6 @@ GEM
       addressable
       faraday
       multi_json
-    konacha (4.0.0)
-      actionpack (>= 4.1, < 5)
-      capybara
-      colorize
-      railties (>= 4.1, < 5)
-      sprockets (>= 2, < 4)
-      sprockets-rails (>= 2, < 4)
-      tilt
     language_list (1.2.1)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -475,10 +465,6 @@ GEM
     pdf-core (0.7.0)
     plissken (0.2.0)
       symbolize (~> 4.2)
-    poltergeist (1.17.0)
-      capybara (~> 2.1)
-      cliver (~> 0.3.1)
-      websocket-driver (>= 0.2.0)
     powerpack (0.1.1)
     prawn (2.2.2)
       pdf-core (~> 0.7.0)
@@ -755,9 +741,6 @@ GEM
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
-    websocket-driver (0.7.0)
-      websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.3)
     wuparty (1.2.7)
       httparty (>= 0.6.1)
       mime-types (>= 1.16)
@@ -827,7 +810,6 @@ DEPENDENCIES
   jbuilder (= 1.5.0)
   jquery-fileupload-rails (~> 0.3.4)
   koala (= 1.11.1)
-  konacha (= 4.0.0)
   language_list (= 1.2.1)
   launchy (~> 2.4)
   linkedin-oauth2 (= 1.0.0)
@@ -848,7 +830,6 @@ DEPENDENCIES
   omniauth-google-oauth2 (= 0.5.3)
   opengraph_parser!
   plissken (= 0.2.0)
-  poltergeist (= 1.17.0)
   prawn (= 2.2.2)
   prawn-svg (= 0.27.1)
   pry-rails (= 0.3.6)

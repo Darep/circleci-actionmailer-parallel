@@ -391,12 +391,6 @@ group :test do
   # Stub constants for the duration of a block in MiniTest.
   gem 'minitest-stub-const', '0.6'
 
-  # Javascript test runner (using mocha)
-  gem 'konacha', '4.0.0'
-
-  # PhantomJS driver for Capybara
-  gem 'poltergeist', '1.17.0'
-
   # Stripe webhook tests
   gem 'stripe_tester', '~> 0.5.0'
 
